@@ -89,8 +89,8 @@ def print_assignments(model_name, assignments, coherence):
         print(f"Rejected:  {rejected}")
         print(f"Coherence: {coherence}\n\n")
 
-def graph_print():
-    print("Graph")
+def graph_print(graph):
+    print(graph)
 
 def save_results(nr_elements, algorithm_names, epochs,
                  value_similarities, structure_similarities,
